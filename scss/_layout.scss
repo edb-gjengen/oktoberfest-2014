@@ -46,7 +46,7 @@ body {
 #om,
 #kart,
 #kontakt {
-	@extend .col-12;
+	@extend .col-sm-12;
 	@extend .col-md-8;
 	@extend .col-md-offset-2;
 
@@ -57,7 +57,7 @@ body {
 	@extend .row;
 
 	.logo {
-		@extend .col-12;
+		@extend .col-sm-12;
 		@extend .col-md-6;
 	}
 
@@ -74,7 +74,7 @@ body {
 
 }
 .intro {
-	@extend .col-12;
+	@extend .col-sm-12;
 	@extend .col-md-6;
 
 	padding-top:70px;
@@ -98,13 +98,13 @@ body {
 	overflow:hidden;
 
 	h1 {
-		@extend .col-12;
+		@extend .col-sm-12;
 		@extend .col-sm-6;
 		@extend .col-md-4;
 		@extend .col-lg-12;
 	}
 	.col {
-		@extend .col-12;
+		@extend .col-sm-12;
 		@extend .col-sm-6;
 		@extend .col-md-4;
 		@extend .col-lg-3;
@@ -138,7 +138,7 @@ body {
 	padding-top:140px;
 
 	.col {
-		@extend .col-12;
+		@extend .col-sm-12;
 		@extend .col-sm-4;
 	}
 }
