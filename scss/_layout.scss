@@ -1,7 +1,7 @@
 body {
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background:url('../img/liten_tile.png');
+	background:url('../img/liten_tile.png') fixed;
 }
 
 .navbar-fixed-top {
@@ -139,6 +139,10 @@ body {
 
 	.col {
 		@extend .col-sm-12;
-		@extend .col-sm-4;
+		@extend .col-md-8;
+
+		&:first-of-type {
+			@extend .col-sm-4;
+		}
 	}
 }
